@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Tatrzański Park Narodowy</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="tpn.css">
+		<meta charset="utf-8"/> 
+	</head>
+	<body>
+		<nav class="nav navbar-default">
+			<div class="container navbar-container">
+				<button type="button" class="navbar-toggle"
+								data-toggle="collapse"
+								data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="" class='navbar-brand'>
+					<img id="logo" src="img/logo_tpn.png" alt="Tatrzański Park Narodowy">
+				</a>
+				<ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+					<li><a href="#">Logowanie</a></li>
+					<li><a href="#">Zarejestruj</a></li>
+					<li><a href="#"><img src="img/bip.jpg"></a></li>
+					<li><a href=""><span class="fa fa-twitter"></span></a></li>
+					<li><a href=""><span class="fa fa-facebook"></span></a></li>
+					<li><a href=""><span class="fa fa-youtube"></span></a></li>
+					<li><a href=""><span class="fa fa-instagram"></span></a></li>
+				</ul>
+				<form class="form-inline search-box">
+    		<div class="form-group">
+    			<!-- <label for="e-mail">Wpisz swoj e-mail:</label> -->
+    			<input type="email" placeholder="Twoja wyszukiwarka" class="full-width hidden-xs">
+    			<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+ 					<input type="email" placeholder="Twoja wyszukiwarka" class="mini-width hidden-md">
+				<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+				</div>
+			</form>
+			</div>
+		</nav>
+		<section class="intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 hidden-xs my-slides">
+						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- Wrapper for slides -->
+						  <img id="gory" src="img/gory_strip.png" alt="Tatry" class="hidden-xs">
+						  <div class="carousel-inner" role="listbox">
+						  	<div class="carousel-caption hidden-xs">
+						        z miłości do gór
+						    </div>
+						    <div class="item active">
+						    	<a href=""><img class="body-width" src="http://tpn.pl/upload/banners/959x294x2/memo-banner-v4_1.jpg" alt="Zobacz więcej!"></a>
+						    </div>
+						    <div class="item">
+						    	<a href=""><img class="body-width" src="http://tpn.pl/upload/banners/959x294x2/banner-magia-nart-2_1.jpg" alt="Nowość! Polecamy!"></a>
+						    </div>
+							  <div class="item">
+									<a href=""><img class="body-width" src="http://tpn.pl/upload/banners/959x294x2/banner-na-giewont-sie-patrzy.jpg" alt="Na giewont się patrzy"></a>
+						    </div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 hidden-xs full-menu">
+							<ul class="nav nav-bar nav-pills nav-justified menu">
+								<li><a href="" class="bg-darkgrey">Nowości</a>
+								<li><a href="" class="bg-blue">Poznaj</a></li>
+								<li><a href="" class="bg-grey">Zwiedzaj</a></li>
+								<li><a href="" class="bg-green">Wspieraj</a></li>
+								<li><a href="" class="bg-lightgrey">Kontakt</a></li>
+							</ul>
+					</div>
+					<div class="col-md-2 col-xs-6 bg-darkgrey tile">
+						<h5>Zakopane</h5>
+						<img src="http://tpn.pl/themes/frontend/img/weather/020000.png?s=7" alt="Prognoza pogody">
+					</div>
+					<div class="col-md-2 col-xs-6 bg-grey tile">
+						<h5>Komunikat lawinowy</h5>
+						<img src="img/4.png" alt="">
+					</div>
+					<div class="col-md-4 col-xs-12 bg-lightgrey tile">
+						<h5>Komunikat turystyczny</h5>
+						<p>Warunki do uprawiania turystyki w Tatrach są niekorzystne. Pada marznąca mżawka i jest ślisko.  W części reglowej znaczne odcinki szlaków są już bez śniegu, mogą być...</p>
+						<span>zobacz więcej</span>
+					</div>
+					<div class="col-md-2 col-xs-6 bg-green tile">
+						<h5>Wolontariat</h5>
+						<img src="img/wspieraj.png" alt="icon Wolontariat">
+					</div>
+					<div class="col-md-2 col-xs-6 bg-blue tile">
+						<h5>Nauka</h5>
+						<img src="img/nauka.png" alt="icon Nauka">
+					</div>
+					<div class="col-md-2 col-xs-6 bg-darkgrey tile">
+						<h5>Sklep</h5>
+						<img src="img/sklep.png" alt="Sklep">
+					</div>
+					<div class="col-md-2 col-xs-6 bg-green tile">
+						<h5 class="on-top">Centrum Edukacji - REZERWACJE</h5>
+						<img class="img-80" src="img/Kafelek_CEP_A.jpg" alt="Centrum Edukacji">
+					</div>
+					<div class="col-md-2 col-xs-6 bg-darkgrey tile">
+						<h5>Tatry w pigułce</h5>
+						<img src="img/pastylka.jpg" alt="Tatry w pigułce">
+					</div>
+					<div class="col-md-2 col-xs-6 bg-blue tile">
+						<h5>Biblioteka</h5>
+						<img src="img/biblioteka.png" alt="Biblioteka">
+					</div>
+					<div class="col-md-2 col-xs-6 tile centered">
+						<img src="img/lawinoweabc.png" alt="Lawinowe ABC">
+					</div>
+					<div class="col-md-2 col-xs-6 facebook-blue tile">
+						<h5>Facebook</h5>
+						<img src="img/facebook.png" alt="Facebook">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="info-block">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h2 class="border-bottom">Nowości</h2>
+						<ul class="list-unstyled">
+							<li>
+								<a href="">Nie wędruj po zmroku</a>
+								W ostatnim czasie zauważyliśmy, że coraz więcej turystów pieszych wędruje po Tatrach nocą i coraz więcej skiturowców chodzi po zmroku po...
+							</li>
+							<li>
+								<a href="">Ekologiczne zdroje</a>
+								W listopadzie ubiegłego roku na terenie Tatrzańskiego Parku Narodowego wybudowaliśmy zdroje wody pitnej. Od kwietnia do listopada będzie tam można...
+							</li>
+							<li>
+								<a href="">Najnowsze „Tatry” wkrótce w sprzedaży</a>
+								Trwa druk zimowego numeru „Tatr” (59). W drugiej połowie marca kwartalnik trafi do sprzedaży i do prenumeratorów, dla których i tym razem...
+							</li>
+							<li>
+								<a href="">Co w trawie piszczy</a>
+								Druga połowa lutego przyniosła ocieplenie, pokrywa śnieżna jest bardzo cienka, miejscami wytopiona, wyziera już spod niej trawa. Wśród tatrzańskich...
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h2 class="border-bottom">Informacje</h2>
+						<ul class="list-unstyled">
+							<li>
+								<span class="square bg-green"></span>
+								<a href="" class="green">Komunikat lawinowy</a>
+								Wyzwolenie lawiny na ogół jest możliwe tylko przy dużym obciążeniu dodatkowym** w nielicznych miejscach w bardzo stromym, lub...
+							</li>
+							<li>
+								<span class="square bg-blue"></span>
+								<a href="" class="blue">Prognoza pogody</a>
+								Instytut Meteorologii i Gospodarki Wodnej - Państwowy Instytut BadawczyCentralne Biuro Prognoz Meteorologicznych w Krakowie30-215 Kraków ul....
+							</li>
+							<li>
+								<span class="square bg-grey"></span>
+								<a href="" class="grey">Komunikat turystyczny</a>
+								Od 1 marca do 30 listopada zamknięte są wszystkie szlaki turystyczne od zmierzchu do świtu. Od 1 grudnia do 15 maja, ze względu na ochronę przyrody zamknięte są 3 szlaki turystyczne na następujących...
+							</li>
+							<li>
+								<span class="square bg-blue"></span>
+								<a href="" class="blue">Badania naukowe</a>
+								Nadrzędnym celem Zespołu Badań i Monitoringu jest współpraca z zewnętrznymi placówkami naukowo-badawczymi oraz prowadzenie... 
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h2 class="border-bottom">Wolonariat</h2>
+						<ul class="list-unstyled">
+							<li>
+								<a href="">Dni Wolontariatu 2016</a>
+								W najbliższy weekend odbędzie się doroczne spotkanie wolontariuszy Tatrzańskiego Parku Narodowego. Zapraszamy na nie wszystkich, którzy w tym roku...
+							</li>
+							<li>
+								<a href="">Wiosenne zadania dla wolontariuszy</a>
+								Wraz z początkiem wiosny w Tatrach pojawiąją się nowe zadania dla wolontariuszy. W kwietniu są to prace związane ze sprzątaniem szlaków i otoczenia...
+							</li>
+							<li>
+								<a href="">Dni Wolontariatu 2015</a>
+								Zapraszamy wszystkich naszych Wolontariuszy do udziału w dorocznym spotkaniu.
+							</li>
+							<li>
+								<a href="">Konkurs PROJEKT WOLONTARIAT 2015</a>
+								Tatrzański Park Narodowy ogłasza konkurs dla wolontariuszy. Polega on na zaprojektowaniu i realizacji trzech nowych zadań w tegoroczne wakacje.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pre-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-xs-12">
+						<h2>
+							<a href="#" class="blue border-bottom">Poznaj</a>
+						</h2>
+						<ul class="list-unstyled">
+							<li><a href="">Nasze wystawy</a></li>
+							<li><a href="">Gleby</a></li>
+							<li><a href="">Wody</a></li>
+							<li><a href="">Rośliny</a></li>
+							<li><a href="">Zwierzęta</a></li>
+							<li><a href="">Natura 2000</a></li>
+							<li><a href="">Dziedzictwo</a></li>
+							<li><a href="">Edukacja</a></li>
+							<li><a href="">Periodyki TPN</a></li>
+							<li><a href="">Biblioteka</a></li>
+							<li><a href="">Konferencje</a></li>
+							<li><a href="">Filmy edukacyjne</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-xs-12">
+						<h2>
+							<a href="#" class="green border-bottom">Zwiedzaj</a>
+						</h2>
+						<ul class="list-unstyled">
+							<li><a href="">Aplikacje mobilne</a></li>
+							<li><a href="">Wiatrołomy</a></li>
+							<li><a href="">Komunikat lawinowy</a></li>
+							<li><a href="">Pogoda</a></li>
+							<li><a href="">Turystyka</a></li>
+							<li><a href="">Taternictwo</a></li>
+							<li><a href="">Narciarstwo</a></li>
+							<li><a href="">Punkt informacji turystycznej</a></li>
+							<li><a href="">Wirtualne Tatry</a></li>
+							<li><a href="">Bezpieczeństwo</a></li>
+							<li><a href="">Polskie Koleje Linowe</a></li>
+							<li><a href="">Przewozy konne</a></li>
+							<li><a href="">Gotowi w góry</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-xs-12">
+						<h2>
+							<a href="#" class="darkgrey border-bottom">Wspieraj</a>
+						</h2>
+						<ul class="list-unstyled">
+						<li><a href="">Wolontariat</a></li>
+							<li><a href="">Przewodnicy</a></li>
+							<li><a href="">Projekty</a></li>
+							<li><a href="">Partnerzy</a></li>
+							<li><a href="">Współpracują z nami</a></li>
+							<li><a href="">Kampanie społeczne</a></li>
+							<li><a href="">TPN na Faebooku</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-xs-12">
+						<h2>
+							<a href="#" class="grey border-bottom">Kontakt</a>
+						</h2>
+						<ul class="list-unstyled">
+							<li><a href="">Polityka prywatności</a></li>
+							<li><a href="">Załatw sprawę</a></li>
+							<li><a href="">Struktura i kompetencje</a></li>
+							<li><a href="">Dojazd do nas</a></li>
+							<li><a href="">TPN</a></li>
+							<li><a href="">Logotypy TPN do pobrania</a></li>
+							<li><a href="">BIP</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Nasze serwisy:</p>
+				<a href=""> biblioteka.tpn.pl</a>
+				<span class="separator">|</span>
+				<a href="">geoportaltatry.pl</a>
+				<span class="separator">|</span>
+				<a href="">jaskinie.tpn.pl</a>
+				<span class="separator">|</span>
+				<a href="">lawinoweabc.pl</a>
+				<span class="separator">|</span>
+				<a href="">nauka.tpn.pl</a>
+				<span class="separator">|</span>
+				<a href="">projektdrzewo.tpn.pl</a>
+				<span class="separator">|</span>
+				<a href="">sklep.tpn.pl</a>
+				<span class="separator">|</span>
+				<a href="">tpn.pl</a>
+				<span class="separator">|</span>
+				<a href="">wolontariat.tpn.pl</a>
+				<span class="separator">|</span>
+				<a href="">wydawnictwa.pl</a>
+
+			<h2>Newsletter</h2>
+			<form class="form-inline">
+    		<div class="form-group">
+    			<label for="e-mail">Wpisz swoj e-mail:</label>
+    			<input type="email" >
+					<button type="submit" class="btn btn-default">Zapisz się</button>
+				</div>
+			</form>
+		</footer>
+
+		<script type="text/javascript" src="jquery/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="jquery/jquery-migrate-1.4.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
